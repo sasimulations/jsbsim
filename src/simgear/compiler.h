@@ -47,7 +47,7 @@
 #endif // __GNUC__
 
 // Dummy SG_LOG macro
-#define SG_LOG(type, level, message) (cout << message << endl)
+#define SG_LOG(type, level, message) (std::cout << message << std::endl)
 
 //
 // Microsoft compilers.

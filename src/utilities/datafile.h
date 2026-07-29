@@ -25,7 +25,6 @@
 #include <cmath>
 #include <iostream>
 
-using namespace std;
 
 /**This class handles reading a data file and placing user-requested data into arrays for plotting.
   *@author Jon S. Berndt

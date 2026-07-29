@@ -48,6 +48,7 @@ FORWARD DECLARATIONS
 
 namespace JSBSim {
 
+using namespace std;
 class Element;
 class FGFunction;
 

@@ -278,9 +278,6 @@
     <ClCompile Include="src\input_output\FGXMLParse.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\JSBSim.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="src\simgear\props\propertyObject.cxx">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -312,6 +309,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\input_output\FGXMLFileRead.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\JSBSim.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

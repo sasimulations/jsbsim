@@ -50,7 +50,7 @@ using std::find;
 using std::sort;
 using std::vector;
 using std::stringstream;
-
+using namespace std;
 using namespace simgear;
 
 ////////////////////////////////////////////////////////////////////////
@@ -2376,7 +2376,7 @@ SGPropertyNode::removeChangeListener (SGPropertyChangeListener * listener)
   if (_listeners == 0)
     return;
   vector<SGPropertyChangeListener*>::iterator it =
-    find(_listeners->begin(), _listeners->end(), listener);
+    std::find(_listeners->begin(), _listeners->end(), listener);
   if (it != _listeners->end()) {
     _listeners->erase(it);
     listener->unregister_property(this);
@@ -2523,7 +2523,7 @@ void
 SGPropertyChangeListener::unregister_property (SGPropertyNode * node)
 {
   vector<SGPropertyNode *>::iterator it =
-    find(_properties.begin(), _properties.end(), node);
+    std::find(_properties.begin(), _properties.end(), node);
   if (it != _properties.end())
     _properties.erase(it);
 }
