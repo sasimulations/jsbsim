@@ -1,0 +1,14 @@
+<Solution>
+  <Configurations>
+    <BuildType Name="Debug_Lib" />
+    <BuildType Name="Debug" />
+    <BuildType Name="Release_Lib" />
+    <BuildType Name="Release" />
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+
+  <Project Path="JSBSim.vcxproj" Id="9f59c1b5-07c0-48a1-ab26-4ba37a000d29" />
+  <Project Path="src\utilities\prep_plot.vcxproj" Id="12b68f94-0bc4-4483-86aa-9cee10f1d525" />
+  <Project Path="utils\aeromatic++\aeromatic.vcxproj" Id="94724cd4-8bce-4537-9cf1-7f1a0a293485" />
+</Solution>
